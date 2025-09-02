@@ -9,3 +9,6 @@ Concole.WriteLine($"Volume {tv.Volume}";
 
 tv.Volume = 120;
 Console.WriteLine($"Volume{tv.Volume}");
+
+tv.aumentarVolume();
+Console.WriteLine($"Volume {tv.volume}");
